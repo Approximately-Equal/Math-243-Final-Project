@@ -49,5 +49,6 @@ po/*~
 rsconnect/
 
 
-# FOLDER STUFF
+# MY STUFF
+.DS_Store
 *data-set
