@@ -1,0 +1,16 @@
+---
+title: "Exploratory Data Analysis (1)"
+author: "Chance Addis"
+date: "2023-10-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(broom)
+```
+
+```{r}
+college <- read.csv("/Users/chance/Desktop/Junior Year/Math 243 - Statistical Learning/Final-Project/data-set/delta_public_00_12.csv")
+```
